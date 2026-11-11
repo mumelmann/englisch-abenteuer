@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#1f5c3a"/>
+  <path d="M256 70l150 50v120c0 100-62 170-150 204-88-34-150-104-150-204V120z" fill="#f2b632" stroke="#fff8e7" stroke-width="14"/>
+  <text x="256" y="300" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-weight="700" font-size="150" fill="#1f5c3a">EN</text>
+</svg>

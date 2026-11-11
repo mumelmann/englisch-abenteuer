@@ -1,0 +1,321 @@
+{
+  "id": "u01",
+  "title": "Welt 1: to be & Pronomen",
+  "subtitle": "am, is, are · my, his, her · me, him, them · mine, yours, hers",
+  "icon": "🗺️",
+  "boss": { "title": "Endgegner: Grammatik-Drache", "icon": "🐉" },
+  "lessons": [
+    {
+      "id": "be1",
+      "title": "am, is, are",
+      "icon": "🗡️",
+      "explain": [
+        { "h": "to be = sein" },
+        { "table": [
+          ["I <b>am</b>", "ich bin"],
+          ["you <b>are</b>", "du bist"],
+          ["he / she / it <b>is</b>", "er / sie / es ist"],
+          ["we <b>are</b>", "wir sind"],
+          ["you <b>are</b>", "ihr seid"],
+          ["they <b>are</b>", "sie sind"]
+        ] },
+        { "tip": "Merke: <b>I</b> → am. <b>He, she, it</b> → is. Alle anderen → are." },
+        { "tip": "Ein Name (Link) ist wie he oder she → <b>is</b>. Zwei Namen (Mario and Luigi) sind wie they → <b>are</b>." }
+      ],
+      "exercises": [
+        { "type": "choice", "q": "Link ___ a hero.", "options": ["am", "is", "are"], "answer": "is", "why": "Link = he → is" },
+        { "type": "choice", "q": "I ___ Adam.", "options": ["am", "is", "are"], "answer": "am", "why": "I → am" },
+        { "type": "choice", "q": "Mario and Luigi ___ brothers.", "options": ["am", "is", "are"], "answer": "are", "why": "Mario and Luigi = they → are" },
+        { "type": "choice", "q": "Zelda ___ a princess.", "options": ["am", "is", "are"], "answer": "is", "why": "Zelda = she → is" },
+        { "type": "choice", "q": "You ___ a good player.", "options": ["am", "is", "are"], "answer": "are", "why": "you → are" },
+        { "type": "choice", "q": "We ___ in Hyrule.", "options": ["am", "is", "are"], "answer": "are", "why": "we → are" },
+        { "type": "choice", "q": "The sword ___ very old.", "options": ["am", "is", "are"], "answer": "is", "why": "The sword = it → is" },
+        { "type": "choice", "q": "Huey, Dewey and Louie ___ Donald's nephews.", "options": ["am", "is", "are"], "answer": "are", "why": "Drei Personen = they → are" },
+        { "type": "gap", "q": "Bowser ___ big and strong.", "answer": "is", "why": "Bowser = he → is" },
+        { "type": "gap", "q": "I ___ ten years old.", "answer": "am", "why": "I → am" },
+        { "type": "gap", "q": "Mickey and Minnie ___ friends.", "answer": "are", "why": "Mickey and Minnie = they → are" },
+        { "type": "gap", "q": "Yoshi ___ green.", "answer": "is", "why": "Yoshi = he → is" },
+        { "type": "gap", "q": "The karts ___ fast.", "answer": "are", "why": "The karts = they → are" },
+        { "type": "gap", "q": "Peach and I ___ in the castle.", "answer": "are", "why": "Peach and I = we → are" },
+        { "type": "order", "answer": "Donald is a duck.", "de": "Donald ist eine Ente." },
+        { "type": "order", "answer": "We are on Rainbow Road.", "de": "Wir sind auf der Rainbow Road." },
+        { "type": "order", "answer": "I am in the kart.", "de": "Ich bin im Kart." },
+        { "type": "match", "pairs": [["I", "am"], ["he", "is"], ["they", "are"], ["we", "are"], ["it", "is"]] },
+        { "type": "fix", "q": "Luigi are tall.", "wrong": "are", "right": "is", "why": "Luigi = he → is" },
+        { "type": "fix", "q": "The Koroks is small.", "wrong": "is", "right": "are", "why": "The Koroks = they → are" },
+        { "type": "fix", "q": "I is a Zelda fan.", "wrong": "is", "right": "am", "why": "I → am" },
+        { "type": "listen", "answer": "She is a hero.", "options": ["He is a hero.", "She is a hero.", "We are heroes."] },
+        { "type": "listen", "answer": "They are fast." }
+      ]
+    },
+    {
+      "id": "be2",
+      "title": "Kurzformen & nicht",
+      "icon": "🛡️",
+      "explain": [
+        { "h": "Kurzformen" },
+        { "table": [
+          ["I am", "<b>I'm</b>"],
+          ["you are", "<b>you're</b>"],
+          ["he is / she is / it is", "<b>he's / she's / it's</b>"],
+          ["we are", "<b>we're</b>"],
+          ["they are", "<b>they're</b>"]
+        ] },
+        { "h": "Verneinung (nicht)" },
+        { "table": [
+          ["I am not", "<b>I'm not</b>"],
+          ["he is not", "he <b>isn't</b>"],
+          ["they are not", "they <b>aren't</b>"]
+        ] },
+        { "tip": "Für <b>am not</b> gibt es keine Kurzform. Es heißt immer: I'm not." }
+      ],
+      "exercises": [
+        { "type": "choice", "q": "Bowser ___ nice. He is a villain.", "options": ["isn't", "aren't", "am not"], "answer": "isn't", "why": "Bowser = he → is not = isn't" },
+        { "type": "choice", "q": "I ___ a Goomba!", "options": ["am not", "isn't", "aren't"], "answer": "am not", "why": "I → am not" },
+        { "type": "choice", "q": "Mario and Luigi ___ sisters. They're brothers.", "options": ["isn't", "aren't", "am not"], "answer": "aren't", "why": "Mario and Luigi = they → aren't" },
+        { "type": "choice", "q": "___ a great racer.", "hint": "She is", "options": ["She's", "She're", "She'm"], "answer": "She's", "why": "she is = she's" },
+        { "type": "choice", "q": "___ ducks.", "hint": "They are", "options": ["They're", "They's", "Their"], "answer": "They're", "why": "they are = they're. Achtung: <b>their</b> heißt ihr/ihre!" },
+        { "type": "choice", "q": "Toad ___ tall. He's small.", "options": ["isn't", "aren't", "am not"], "answer": "isn't", "why": "Toad = he → isn't" },
+        { "type": "gap", "q": "___ Link.", "hint": "I am → Kurzform", "answer": "I'm" },
+        { "type": "gap", "q": "___ a clever princess.", "hint": "She is → Kurzform", "answer": "She's" },
+        { "type": "gap", "q": "___ in the Lost Woods.", "hint": "We are → Kurzform", "answer": "We're" },
+        { "type": "gap", "q": "___ my best friend.", "hint": "You are → Kurzform", "answer": "You're" },
+        { "type": "gap", "q": "Goofy ___ angry. He's happy.", "hint": "is not → Kurzform", "answer": "isn't" },
+        { "type": "gap", "q": "The Bokoblins ___ friendly.", "hint": "are not → Kurzform", "answer": "aren't" },
+        { "type": "gap", "q": "It ___ my kart. It's Luigi's kart.", "hint": "ist nicht", "answer": ["isn't", "is not"] },
+        { "type": "order", "answer": "Ganon isn't a good king.", "de": "Ganon ist kein guter König." },
+        { "type": "order", "answer": "We aren't in the castle.", "de": "Wir sind nicht im Schloss." },
+        { "type": "order", "answer": "I'm not scared.", "de": "Ich habe keine Angst.", "extra": ["isn't"] },
+        { "type": "match", "pairs": [["I am", "I'm"], ["he is", "he's"], ["they are", "they're"], ["is not", "isn't"], ["are not", "aren't"]] },
+        { "type": "fix", "q": "I amn't tired.", "wrong": "amn't", "right": "am not", "why": "Für am not gibt es keine Kurzform." },
+        { "type": "fix", "q": "Daisy aren't slow.", "wrong": "aren't", "right": "isn't", "why": "Daisy = she → isn't" },
+        { "type": "fix", "q": "They isn't in the race.", "wrong": "isn't", "right": "aren't", "why": "they → aren't" },
+        { "type": "listen", "answer": "We're ready.", "options": ["We're ready.", "You're ready.", "They're ready."] },
+        { "type": "listen", "answer": "It isn't far." }
+      ]
+    },
+    {
+      "id": "be3",
+      "title": "Fragen & Kurzantworten",
+      "icon": "❓",
+      "explain": [
+        { "h": "Fragen mit am, is, are" },
+        { "p": "Bei einer Frage tauschen <b>am / is / are</b> und die Person die Plätze:" },
+        { "table": [
+          ["He <b>is</b> brave.", "<b>Is</b> he brave?"],
+          ["They <b>are</b> fast.", "<b>Are</b> they fast?"],
+          ["You <b>are</b> ready.", "<b>Are</b> you ready?"]
+        ] },
+        { "h": "Kurzantworten" },
+        { "table": [
+          ["Are you …?", "Yes, I <b>am</b>. / No, I<b>'m not</b>."],
+          ["Is he …?", "Yes, he <b>is</b>. / No, he <b>isn't</b>."],
+          ["Are they …?", "Yes, they <b>are</b>. / No, they <b>aren't</b>."]
+        ] },
+        { "tip": "Nach <b>Yes</b> gibt es keine Kurzform: Yes, he is. (Nicht: Yes, he's.)" }
+      ],
+      "exercises": [
+        { "type": "choice", "q": "___ Link brave?", "options": ["Is", "Are", "Am"], "answer": "Is", "why": "Link = he → Is" },
+        { "type": "choice", "q": "___ Mario and Peach friends?", "options": ["Is", "Are", "Am"], "answer": "Are", "why": "Mario and Peach = they → Are" },
+        { "type": "choice", "q": "___ you ready for the race?", "options": ["Is", "Are", "Am"], "answer": "Are", "why": "you → Are" },
+        { "type": "choice", "q": "___ I late?", "options": ["Is", "Are", "Am"], "answer": "Am", "why": "I → Am" },
+        { "type": "choice", "q": "Is Zelda a princess? – Yes, ___.", "options": ["she is", "she's", "she are"], "answer": "she is", "why": "Nach Yes keine Kurzform." },
+        { "type": "choice", "q": "Are the Koopas fast? – No, ___.", "options": ["they aren't", "they isn't", "it isn't"], "answer": "they aren't", "why": "The Koopas = they → aren't" },
+        { "type": "choice", "q": "Are you Adam? – Yes, ___.", "options": ["I am", "you are", "I'm"], "answer": "I am", "why": "Frage mit you → Antwort mit I." },
+        { "type": "choice", "q": "Is Bowser small? – No, ___.", "options": ["he isn't", "he aren't", "she isn't"], "answer": "he isn't", "why": "Bowser = he → isn't" },
+        { "type": "gap", "q": "___ Donald angry again?", "answer": "Is", "why": "Donald = he → Is" },
+        { "type": "gap", "q": "___ they in Duckburg?", "answer": "Are", "why": "they → Are" },
+        { "type": "gap", "q": "___ the Master Sword in the forest?", "answer": "Is", "why": "The Master Sword = it → Is" },
+        { "type": "gap", "q": "Is Yoshi a dinosaur? – Yes, he ___.", "answer": "is" },
+        { "type": "gap", "q": "Are you a Bokoblin? – No, I'm ___.", "answer": "not" },
+        { "type": "gap", "q": "Are Huey, Dewey and Louie brothers? – Yes, ___ are.", "answer": "they" },
+        { "type": "order", "answer": "Is Luigi in the haunted house?", "de": "Ist Luigi im Spukhaus?" },
+        { "type": "order", "answer": "Are you a good racer?", "de": "Bist du ein guter Rennfahrer?" },
+        { "type": "order", "answer": "Are they at the finish line?", "de": "Sind sie an der Ziellinie?" },
+        { "type": "match", "pairs": [["Are you …?", "Yes, I am."], ["Is he …?", "Yes, he is."], ["Is she …?", "No, she isn't."], ["Are they …?", "No, they aren't."], ["Is it …?", "Yes, it is."]] },
+        { "type": "fix", "q": "Are Peach in the castle?", "wrong": "Are", "right": "Is", "why": "Peach = she → Is" },
+        { "type": "fix", "q": "Is Mickey and Goofy friends?", "wrong": "Is", "right": "Are", "why": "Mickey and Goofy = they → Are" },
+        { "type": "fix", "q": "Is Link brave? – Yes, he are.", "wrong": "are", "right": "is", "why": "he → is" },
+        { "type": "listen", "answer": "Are you ready?" },
+        { "type": "listen", "answer": "Is she a princess?", "options": ["Is she a princess?", "Is he a prince?", "She is a princess."] }
+      ]
+    },
+    {
+      "id": "pos1",
+      "title": "my, your, his, her …",
+      "icon": "🎒",
+      "explain": [
+        { "h": "Wem gehört es?" },
+        { "table": [
+          ["I → <b>my</b>", "mein"],
+          ["you → <b>your</b>", "dein / euer"],
+          ["he → <b>his</b>", "sein"],
+          ["she → <b>her</b>", "ihr"],
+          ["it → <b>its</b>", "sein"],
+          ["we → <b>our</b>", "unser"],
+          ["they → <b>their</b>", "ihr"]
+        ] },
+        { "tip": "Schau immer, <b>wem</b> etwas gehört: einem Jungen → <b>his</b>. Einem Mädchen → <b>her</b>. Mehreren → <b>their</b>." },
+        { "tip": "Auf Deutsch: sein Schwert, seine Mütze. Auf Englisch immer nur <b>his</b>: his sword, his cap." },
+        { "tip": "<b>its</b> (ohne Strich) = sein. <b>it's</b> (mit Strich) = it is." }
+      ],
+      "exercises": [
+        { "type": "choice", "q": "Link has a sword. ___ sword is sharp.", "options": ["His", "Her", "Their"], "answer": "His", "why": "Link ist ein Junge → his" },
+        { "type": "choice", "q": "Zelda has a harp. ___ harp is beautiful.", "options": ["Her", "His", "Its"], "answer": "Her", "why": "Zelda ist ein Mädchen → her" },
+        { "type": "choice", "q": "Mario and Luigi have a house. ___ house is small.", "options": ["Their", "His", "Our"], "answer": "Their", "why": "Zwei Personen = they → their" },
+        { "type": "choice", "q": "I have a Switch. ___ Switch is red and blue.", "options": ["My", "Your", "His"], "answer": "My", "why": "I → my" },
+        { "type": "choice", "q": "We have karts. ___ karts are fast.", "options": ["Our", "Their", "Your"], "answer": "Our", "why": "we → our" },
+        { "type": "choice", "q": "You have a shield. ___ shield is strong.", "options": ["Your", "My", "Her"], "answer": "Your", "why": "you → your" },
+        { "type": "choice", "q": "The dragon is big. ___ wings are huge.", "options": ["Its", "It's", "Their"], "answer": "Its", "why": "its = sein (gehört dem Drachen). it's = it is." },
+        { "type": "choice", "q": "Peach loves ___ castle.", "options": ["her", "his", "their"], "answer": "her", "why": "Peach ist ein Mädchen → her" },
+        { "type": "choice", "q": "Donald is angry. ___ nephews are loud.", "options": ["His", "Her", "Their"], "answer": "His", "why": "Donald = he → his" },
+        { "type": "choice", "q": "Minnie has a bow. ___ bow is red.", "options": ["Her", "His", "Our"], "answer": "Her", "why": "Minnie = she → her" },
+        { "type": "gap", "q": "Scrooge loves ___ money.", "hint": "sein Geld", "answer": "his", "why": "Scrooge = he → his" },
+        { "type": "gap", "q": "Daisy is in ___ kart.", "hint": "ihr Kart (gehört Daisy)", "answer": "her", "why": "Daisy = she → her" },
+        { "type": "gap", "q": "Huey, Dewey and Louie are in ___ room.", "hint": "ihr Zimmer (gehört den dreien)", "answer": "their", "why": "Drei Personen = they → their" },
+        { "type": "gap", "q": "I am Adam. This is ___ game.", "hint": "mein Spiel", "answer": "my" },
+        { "type": "gap", "q": "We are a team. This is ___ flag.", "hint": "unsere Flagge", "answer": "our" },
+        { "type": "gap", "q": "Is this ___ controller, Adam?", "hint": "dein Controller", "answer": "your" },
+        { "type": "gap", "q": "Mario is happy. ___ brother is here.", "hint": "sein Bruder", "answer": "His", "why": "Mario = he → his" },
+        { "type": "order", "answer": "His horse is very fast.", "de": "Sein Pferd ist sehr schnell.", "extra": ["Her"] },
+        { "type": "order", "answer": "Her friends are in the castle.", "de": "Ihre Freunde sind im Schloss. (Zeldas Freunde)" },
+        { "type": "order", "answer": "Their uncle is very rich.", "de": "Ihr Onkel ist sehr reich. (der Onkel von Tick, Trick und Track)", "extra": ["His"] },
+        { "type": "match", "pairs": [["I", "my"], ["he", "his"], ["she", "her"], ["we", "our"], ["they", "their"]] },
+        { "type": "match", "pairs": [["mein", "my"], ["dein", "your"], ["unser", "our"], ["ihr (von Zelda)", "her"], ["sein (von Link)", "his"]] },
+        { "type": "fix", "q": "Peach has a crown. His crown is gold.", "wrong": "His", "right": "Her", "why": "Peach = she → her" },
+        { "type": "fix", "q": "Luigi is scared. Her hands are cold.", "wrong": "Her", "right": "His", "why": "Luigi = he → his" },
+        { "type": "fix", "q": "Mario and Peach are happy. His friends are here.", "wrong": "His", "right": "Their", "why": "Mario and Peach = they → their" },
+        { "type": "listen", "answer": "This is my kart." },
+        { "type": "listen", "answer": "Her name is Zelda.", "options": ["Her name is Zelda.", "His name is Zelda.", "Our name is Zelda."] }
+      ]
+    },
+    {
+      "id": "obj",
+      "title": "me, him, her, us, them",
+      "icon": "🤝",
+      "explain": [
+        { "h": "Pronomen nach dem Verb" },
+        { "table": [
+          ["I → <b>me</b>", "mich / mir"],
+          ["you → <b>you</b>", "dich / dir"],
+          ["he → <b>him</b>", "ihn / ihm"],
+          ["she → <b>her</b>", "sie / ihr"],
+          ["it → <b>it</b>", "es"],
+          ["we → <b>us</b>", "uns"],
+          ["they → <b>them</b>", "sie / ihnen"]
+        ] },
+        { "tip": "<b>Vor</b> dem Verb: he, she, they. <b>Nach</b> dem Verb oder nach with, for, to, at: him, her, them." },
+        { "p": "Beispiel: <b>He</b> helps <b>her</b>. <b>She</b> helps <b>him</b>." }
+      ],
+      "exercises": [
+        { "type": "choice", "q": "Link is my hero. I like ___.", "options": ["him", "he", "his"], "answer": "him", "why": "Nach dem Verb: he → him" },
+        { "type": "choice", "q": "Zelda is in danger. Link helps ___.", "options": ["her", "she", "hers"], "answer": "her", "why": "Nach dem Verb: she → her" },
+        { "type": "choice", "q": "The Bokoblins are here. Link fights ___.", "options": ["them", "they", "their"], "answer": "them", "why": "Nach dem Verb: they → them" },
+        { "type": "choice", "q": "I am in the kart. Can you see ___?", "options": ["me", "I", "my"], "answer": "me", "why": "Nach dem Verb: I → me" },
+        { "type": "choice", "q": "We are lost. Please help ___!", "options": ["us", "we", "our"], "answer": "us", "why": "Nach dem Verb: we → us" },
+        { "type": "choice", "q": "Where is the key? I can't find ___.", "options": ["it", "him", "them"], "answer": "it", "why": "The key = it" },
+        { "type": "choice", "q": "Mario is fast. Luigi can't catch ___.", "options": ["him", "he", "them"], "answer": "him", "why": "Mario = he → him" },
+        { "type": "choice", "q": "Goofy and Donald are funny. Mickey likes ___.", "options": ["them", "they", "him"], "answer": "them", "why": "Goofy and Donald = they → them" },
+        { "type": "gap", "q": "Peach is nice. Mario likes ___.", "answer": "her", "why": "Peach = she → her" },
+        { "type": "gap", "q": "Bowser is angry. Don't look at ___!", "answer": "him", "why": "Bowser = he → him" },
+        { "type": "gap", "q": "The coins are for Scrooge. Give ___ to Scrooge.", "answer": "them", "why": "The coins = they → them" },
+        { "type": "gap", "q": "I am Adam. Play with ___!", "answer": "me", "why": "I → me" },
+        { "type": "gap", "q": "We are your friends. Come with ___.", "answer": "us", "why": "we → us" },
+        { "type": "gap", "q": "This is a star. Take ___!", "answer": "it", "why": "a star = it" },
+        { "type": "gap", "q": "Daisy is fast. Can you race against ___?", "answer": "her", "why": "Daisy = she → her" },
+        { "type": "order", "answer": "Can you help me, please?", "de": "Kannst du mir bitte helfen?" },
+        { "type": "order", "answer": "Mario races against them.", "de": "Mario fährt gegen sie.", "extra": ["they"] },
+        { "type": "order", "answer": "Donald is angry with us.", "de": "Donald ist wütend auf uns.", "extra": ["we"] },
+        { "type": "match", "pairs": [["I", "me"], ["he", "him"], ["she", "her"], ["we", "us"], ["they", "them"]] },
+        { "type": "fix", "q": "Zelda is clever. Link likes she.", "wrong": "she", "right": "her", "why": "Nach dem Verb: she → her" },
+        { "type": "fix", "q": "The Goombas are small. Mario jumps on they.", "wrong": "they", "right": "them", "why": "Nach on: they → them" },
+        { "type": "fix", "q": "Him is my friend.", "wrong": "Him", "right": "He", "why": "Vor dem Verb: he" },
+        { "type": "fix", "q": "Come with I!", "wrong": "I", "right": "me", "why": "Nach with: I → me" },
+        { "type": "listen", "answer": "Give it to me." },
+        { "type": "listen", "answer": "I can see them.", "options": ["I can see them.", "I can see him.", "I can see her."] }
+      ]
+    },
+    {
+      "id": "pos2",
+      "title": "mine, yours, his, hers",
+      "icon": "👑",
+      "explain": [
+        { "h": "Mit Nomen oder ohne?" },
+        { "p": "Mit Nomen: This is <b>my</b> kart. &nbsp; Ohne Nomen: This kart is <b>mine</b>." },
+        { "table": [
+          ["my kart", "It's <b>mine</b>. (meins)"],
+          ["your kart", "It's <b>yours</b>. (deins)"],
+          ["his kart", "It's <b>his</b>. (seins)"],
+          ["her kart", "It's <b>hers</b>. (ihrs)"],
+          ["our kart", "It's <b>ours</b>. (unseres)"],
+          ["their kart", "It's <b>theirs</b>. (ihres)"]
+        ] },
+        { "tip": "Kommt danach ein Nomen? → my, your, her, our, their. Kommt danach nichts mehr? → mine, yours, hers, ours, theirs." },
+        { "tip": "<b>Whose</b> sword is it? = Wem gehört das Schwert?" }
+      ],
+      "exercises": [
+        { "type": "choice", "q": "This is my sword. It's ___.", "options": ["mine", "my", "me"], "answer": "mine", "why": "Kein Nomen danach → mine" },
+        { "type": "choice", "q": "That is Zelda's harp. It's ___.", "options": ["hers", "her", "she"], "answer": "hers", "why": "Zelda = she, kein Nomen danach → hers" },
+        { "type": "choice", "q": "This is Link's shield. It's ___.", "options": ["his", "him", "he"], "answer": "his", "why": "Link = he → his" },
+        { "type": "choice", "q": "These are our karts. They're ___.", "options": ["ours", "our", "us"], "answer": "ours", "why": "Kein Nomen danach → ours" },
+        { "type": "choice", "q": "That is Mario and Luigi's house. It's ___.", "options": ["theirs", "their", "them"], "answer": "theirs", "why": "Zwei Personen, kein Nomen danach → theirs" },
+        { "type": "choice", "q": "Is this your hat? Is it ___?", "options": ["yours", "your", "you"], "answer": "yours", "why": "Kein Nomen danach → yours" },
+        { "type": "choice", "q": "This is ___ kart.", "options": ["my", "mine", "me"], "answer": "my", "why": "Danach kommt ein Nomen (kart) → my" },
+        { "type": "choice", "q": "The red kart is ___.", "options": ["mine", "my", "I"], "answer": "mine", "why": "Kein Nomen danach → mine" },
+        { "type": "choice", "q": "Whose money is it? – It's Scrooge's. It's ___.", "options": ["his", "him", "hers"], "answer": "his", "why": "Scrooge = he → his" },
+        { "type": "choice", "q": "Minnie has a red bow. The blue bow isn't ___.", "options": ["hers", "her", "she"], "answer": "hers", "why": "Minnie = she, kein Nomen danach → hers" },
+        { "type": "gap", "q": "This is my controller. It's ___.", "answer": "mine" },
+        { "type": "gap", "q": "That is Peach's crown. It's ___.", "answer": "hers", "why": "Peach = she → hers" },
+        { "type": "gap", "q": "These toys are Huey, Dewey and Louie's. They're ___.", "answer": "theirs", "why": "Drei Personen → theirs" },
+        { "type": "gap", "q": "This is our team flag. It's ___.", "answer": "ours" },
+        { "type": "gap", "q": "Adam, this is your prize. It's ___!", "answer": "yours" },
+        { "type": "gap", "q": "That is Luigi's cap. It's ___.", "answer": "his", "why": "Luigi = he → his" },
+        { "type": "gap", "q": "Is this ___ shield, Link?", "hint": "dein Schild (mit Nomen!)", "answer": "your", "why": "Danach kommt ein Nomen → your" },
+        { "type": "order", "answer": "The green cap is his.", "de": "Die grüne Mütze gehört ihm.", "extra": ["him"] },
+        { "type": "order", "answer": "This castle is hers.", "de": "Dieses Schloss gehört ihr.", "extra": ["her"] },
+        { "type": "order", "answer": "Is this kart yours?", "de": "Ist das dein Kart?", "extra": ["your"] },
+        { "type": "match", "pairs": [["my", "mine"], ["your", "yours"], ["her", "hers"], ["our", "ours"], ["their", "theirs"]] },
+        { "type": "fix", "q": "This sword is my.", "wrong": "my", "right": "mine", "why": "Kein Nomen danach → mine" },
+        { "type": "fix", "q": "That is hers horse.", "wrong": "hers", "right": "her", "why": "Danach kommt ein Nomen (horse) → her" },
+        { "type": "fix", "q": "The karts are our.", "wrong": "our", "right": "ours", "why": "Kein Nomen danach → ours" },
+        { "type": "listen", "answer": "It is mine." },
+        { "type": "listen", "answer": "Is it yours?", "options": ["Is it yours?", "Is it ours?", "Is it hers?"] }
+      ]
+    },
+    {
+      "id": "words",
+      "title": "Abenteuer-Wörter",
+      "icon": "📖",
+      "explain": [
+        { "h": "Wörter für dein Abenteuer" },
+        { "table": [
+          ["sword", "das Schwert"], ["shield", "der Schild"], ["castle", "das Schloss"], ["key", "der Schlüssel"],
+          ["forest", "der Wald"], ["race", "das Rennen"], ["brave", "mutig"], ["fast", "schnell"],
+          ["strong", "stark"], ["friend", "der Freund / die Freundin"], ["brother", "der Bruder"], ["king", "der König"]
+        ] },
+        { "tip": "Lies die Wörter erst laut. Dann geht es los!" }
+      ],
+      "exercises": [
+        { "type": "word", "de": "das Schwert", "answer": "sword", "options": ["sword", "shield", "key"] },
+        { "type": "word", "de": "der Schild", "answer": "shield", "options": ["shield", "sword", "castle"] },
+        { "type": "word", "de": "das Schloss", "answer": "castle", "options": ["castle", "forest", "king"] },
+        { "type": "word", "de": "mutig", "answer": "brave", "options": ["brave", "fast", "strong"] },
+        { "type": "word", "de": "der Wald", "answer": "forest", "options": ["forest", "race", "castle"] },
+        { "type": "word", "de": "der Schlüssel", "answer": "key" },
+        { "type": "word", "de": "schnell", "answer": "fast" },
+        { "type": "word", "de": "stark", "answer": "strong" },
+        { "type": "word", "de": "der Freund", "answer": "friend" },
+        { "type": "word", "de": "der Bruder", "answer": "brother" },
+        { "type": "word", "de": "der König", "answer": "king" },
+        { "type": "word", "de": "das Rennen", "answer": "race" },
+        { "type": "match", "pairs": [["sword", "Schwert"], ["castle", "Schloss"], ["key", "Schlüssel"], ["forest", "Wald"], ["king", "König"]] },
+        { "type": "match", "pairs": [["brave", "mutig"], ["fast", "schnell"], ["strong", "stark"], ["friend", "Freund"], ["brother", "Bruder"]] },
+        { "type": "gap", "q": "Link has a sword and a ___.", "hint": "Schild", "answer": "shield" },
+        { "type": "gap", "q": "Luigi is Mario's ___.", "hint": "Bruder", "answer": "brother" },
+        { "type": "gap", "q": "Zelda lives in a ___.", "hint": "Schloss", "answer": "castle" },
+        { "type": "listen", "answer": "The king is brave." },
+        { "type": "listen", "answer": "My friend is fast." }
+      ]
+    }
+  ]
+}
